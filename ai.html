@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ta">
+  <head>
+    <meta charset="UTF-8" />
+    <title>பிறந்த நாள் கவிதை 💖</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil&display=swap");
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Noto Sans Tamil", sans-serif;
+        background: radial-gradient(circle at center, #2b1055, #7597de);
+        color: #fff;
+        overflow-x: hidden;
+      }
+
+      .intro {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        animation: fadeIn 3s ease-in;
+      }
+
+      h1 {
+        font-size: 3.5rem;
+        text-shadow: 0 0 20px #ffcc00;
+      }
+
+      .floating {
+        position: absolute;
+        font-size: 2rem;
+        animation: float 6s infinite ease-in-out;
+      }
+
+      @keyframes float {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-30px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+
+      .floating-2 {
+        position: absolute;
+        font-size: 2rem;
+        animation: float 5s infinite ease-out;
+      }
+
+      @keyframes float {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-30px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+
+      .message {
+        padding: 50px;
+        font-size: 1.5rem;
+        background: rgba(255, 255, 255, 0.1);
+        margin: 50px auto;
+        width: 80%;
+        border-radius: 20px;
+        box-shadow: 0 0 20px #fff;
+        animation: fadeInUp 2s ease-out;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(50px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      button {
+        padding: 50px;
+        font-size: 1.5rem;
+        background: rgba(255, 255, 255, 0.1);
+        margin: 50px auto;
+        height: 50px;
+        width: 250px;
+        border-radius: 20px;
+        box-shadow: 0 0 20px #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .no-underline {
+        text-decoration: none;
+        color: #fff; /* optional: change link color */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="intro">
+      <h1>🎂 ரேணு! உங்க பிறந்த நாளுக்கு ஒரு கவிதை...</h1>
+      <div class="floating-2" style="top: 20%; left: 10%">🌹</div>
+      <div class="floating" style="top: 30%; left: 80%">🎈</div>
+      <div class="floating" style="top: 60%; left: 40%">✨</div>
+      <div class="floating" style="top: 75%; left: 70%">💐</div>
+      <div class="floating-2" style="top: 70%; left: 30%">💖</div>
+      <div class="floating" style="top: 90%; left: 0%">🎂</div>
+      <div class="floating-2" style="top: 20%; left: 50%">🎉</div>
+    </div>
+
+    <div class="message">
+      இந்த புள்ள ரேணு...😀<br />
+      உன்னோட செல்ல பெரு மானு...🤪<br />
+      உன் குரலோ ஒரு தேனு...😆<br />
+      அத கெடத்தும் நா "GONE"...🥳<br /><br /><br/>
+      எனக்கு புகழ்ச்சி பிடிக்காது...😌<br /><br />
+      <button>
+        <a href="Happy birthday.html" class="no-underline">Surprice...✨</a>
+      </button>
+    </div>
+
+    <audio autoplay loop>
+      <source
+        src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+  </body>
+</html>
